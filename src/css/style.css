@@ -1,16 +1,9 @@
-/*
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-*/
+
 body{
-/*    font-size: 26px;*/
     font-family: 'Hind Guntur', sans-serif;
     color:#333;
     margin:0;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
 }
 
 header{
@@ -26,7 +19,6 @@ header{
     padding-left: 15px;
     float: left;
     line-height: 80px;
-/*    font-weight: bold;*/
 }
 
 nav ul{
@@ -47,7 +39,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     color:#fff;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 nav ul ul{
@@ -188,11 +180,63 @@ nav ul li:hover > ul{
     font-size: 18px;
 }
 
+footer{
+    
+    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+    text-align: center;   
+    padding: 10px;
+}
 
 
 
+footer a {     
+    text-decoration: none;
+    color: #e00986;
+} 
+
+figure img{
+
+    height: 500px;
+    width: auto;
+}
+.container img{
+    height: 500px;
+    width: auto;
+
+}
 
 
+.galery-section{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.gallery-section h2 {
+    margin: 0; 
+    padding: 10px; 
+    text-align: center;  
+    color: #66b8c4; 
+} 
+
+.gallery-image {  
+    display: flex;   
+    flex-flow: row wrap; 
+    justify-content: center; 
+} 
+
+.gallery-image img { 
+    display: flex;
+    width: 300px; 
+    height: 200px;   
+    object-fit: cover;   
+    margin: 10px 10px;  
+    border: 5px solid white;
+    box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75); } 
+
+.gallery-image img:hover {  
+    transform:scale(1.15);
+} 
 
 
 
