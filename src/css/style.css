@@ -4,15 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 26px;
+/*    font-size: 26px;*/
     font-family: 'Hind Guntur', sans-serif;
     color:#333;
     margin:0;
 }
 
 header{
-    
-    
     height: 80px;
     background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9); 
     
@@ -22,15 +20,60 @@ header{
     color: #e00986;
     font-size: 25px;
     margin:0;
+    padding-left: 15px;
     float: left;
     line-height: 80px;
-    padding-left: 15px;
-    font-weight: bold;
+/*    font-weight: bold;*/
 }
 
 nav ul{
     float: right;
 }
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+}
+nav ul li a{
+    text-decoration: none;
+    line-height: 80px;
+    padding: 0 10px;
+    display: block;
+    color: #e00986;
+}
+nav ul li a:hover{
+    color:#fff;
+    transition-duration: 2s;
+}
+
+nav ul ul{
+    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9); 
+    text-align: left;
+    width: 100%;
+    border: 1px solid #e00986;
+    display: none;
+}
+
+
+nav ul ul li{
+    display: block;
+}
+nav ul ul li a{
+    padding: 0 15px;
+}
+
+
+nav ul li:hover > ul{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+
 
 .clear{
     clear:both;
