@@ -1,11 +1,37 @@
-.{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 26px;
+    font-family: 'Hind Guntur', sans-serif;
+    color:#333;
+    margin:0;
+}
+
+header{
+    
+    
+    height: 80px;
+    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9); 
     
 }
-a{
-    text-decoration: none;
+
+.nav-logo{
+    color: #e00986;
+    font-size: 25px;
+    margin:0;
+    float: left;
+    line-height: 80px;
+    padding-left: 15px;
+    font-weight: bold;
 }
-a:hover{
-    text-decoration: none;
+
+nav ul{
+    float: right;
+}
+
+.clear{
+    clear:both;
 }
