@@ -1,13 +1,16 @@
+/*
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+*/
 body{
 /*    font-size: 26px;*/
     font-family: 'Hind Guntur', sans-serif;
     color:#333;
     margin:0;
+    overflow-x: hidden;
 }
 
 header{
@@ -78,17 +81,6 @@ nav ul li:hover > ul{
 
 
 
-/*
-.hero-section{
-    width: 100%;
-    height: 300px;
-    background-image: url(https://unsplash.com/photos/5mCn4Y8gOk8);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    
-}
-*/
 
 
 .hero-section {
@@ -129,5 +121,26 @@ nav ul li:hover > ul{
     color:#fbb619!important;
 }
 
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 10px 20px;
+}
+.about-section{
+    width: 100%;
+    background-color: #f29cd9;
+}
 
+
+.about-section h2{
+    margin:0;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.about-section img{
+    margin:10px auto 30px;
+    display: block;
+    
+}
 
